@@ -1,0 +1,65 @@
+@import './variables';
+// Manrope wght 200-800
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+    
+html, body {
+    overflow-x: hidden;
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    min-width: 112px;
+    max-width: 248px;
+    background-color: $primary !important;
+    border-radius: 8px;
+    padding: 10px 16px;
+    transition: .2s ease !important;
+}
+
+a {text-decoration: none;}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Manrope', sans-serif;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.d-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    max-width: 800px;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 800;
+    color: $primary;
+    margin-bottom: 0.67em;
+}
+
+.text-primary {
+    color: $primary !important;
+}
+
+p {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 500;
+    color: $font-color;
+    font-family: 'Manrope', sans-serif;
+}

@@ -1,0 +1,23 @@
+.team {
+    background-color: $background;
+
+    p {
+        max-width: 500px;
+        padding: 40px 0 10px;
+    }
+
+    h3 {
+        color: $font-color;
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 50px;
+
+        span {
+            font-size: 120px;
+            font-weight: 700;
+            color: $primary;
+            display: block;
+        }
+
+    }
+}
